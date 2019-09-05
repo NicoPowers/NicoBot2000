@@ -1,8 +1,0 @@
-# ignore build
-./build
-
-#ignore devel
-./devel
-
-#ignore install 
-./install
