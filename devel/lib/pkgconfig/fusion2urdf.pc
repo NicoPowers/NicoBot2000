@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel
+
+Name: fusion2urdf
+Description: Description of fusion2urdf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/lib 
+Requires: 

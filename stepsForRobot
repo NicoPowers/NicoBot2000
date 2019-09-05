@@ -1,0 +1,21 @@
+On Robot:
+- start ros
+roscore
+- start communication between robot and arduino
+rosrun rosserial_python serialnode.py _port:=/dev/ttyACM0 
+- start kinect
+roslaunch kinect2_bridge kinect2_bridge.launch
+- convert depth image to laserscan for SLAM/AMCL
+rosrun depthimage_to_laserscan depthimage_to_laserscan image:=/kinect2/sd/image_depth
+(camera_depth_frame) frame id
+- connect to VNC server
+vncviewer 10.42.01:1 (passwd is jetsonna)
+- set frame-id of depth_image_to_laserscan for gmapping
+rosparam set /depthimage_to_laserscan/output_frame_id /kinect__1
+
+TODO:
+
+- write controller code to produce odom
+- fuse IMU data with odom to produce better odom (odomFiltered)
+- generate map of house with filtered odom and laser scan
+- implement AMCl and fine tune parameters

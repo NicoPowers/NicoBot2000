@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel
+
+Name: slam_setup
+Description: Description of slam_setup
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/lib 
+Requires: 

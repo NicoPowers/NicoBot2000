@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/opt/ros/kinetic/include",
+                "/home/nicolas/catkin_ws/src/robot/include",
+                "/usr/include",
+                "/usr/share/arduino/libraries/Wire",
+                "/home/nicolas/sketchbook/libraries/ros_lib",
+                "/home/nicolas/sketchbook/libraries/AdafruitMotor",
+                "/home/nicolas/sketchbook/libraries/ArduinoPID",
+                "/home/nicolas/sketchbook/libraries/ArduinoIMU",
+                "/home/nicolas/sketchbook/libraries/ArduinoSensor",
+                "/usr/share/arduino/hardware/arduino/cores/arduino",
+                "/usr/lib/avr/include/avr"
+
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

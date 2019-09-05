@@ -1,0 +1,8 @@
+prefix=/home/nicolas/catkin_ws/devel
+
+Name: mobile_robot_setup_tf
+Description: Description of mobile_robot_setup_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nicolas/catkin_ws/devel/lib 
+Requires: 

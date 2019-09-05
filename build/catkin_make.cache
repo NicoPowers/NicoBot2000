@@ -1,0 +1,2 @@
+fusion2urdf:kinect_sync:mobile_robot_odom:mobile_robot_setup_tf:slam_setup
+-DCATKIN_DEVEL_PREFIX=/home/nicolas/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nicolas/catkin_ws/install -G Unix Makefiles
