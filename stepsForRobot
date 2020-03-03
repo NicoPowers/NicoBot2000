@@ -2,7 +2,7 @@ On Robot:
 - start ros
 roscore
 - start communication between robot and arduino
-rosrun rosserial_python serialnode.py _port:=/dev/ttyACM0 
+rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 
 - start kinect
 roslaunch kinect2_bridge kinect2_bridge.launch
 - convert depth image to laserscan for SLAM/AMCL
