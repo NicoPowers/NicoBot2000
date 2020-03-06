@@ -1,3 +1,4 @@
+SSH to Robot (connected to apartment wifi atm: jetson@10.20.0.228  pass:nano) 
 On Robot:
 - start ros
 roscore
